@@ -38,11 +38,15 @@ Use this node for tasks that involve moving objects from one location to another
   - **Strategy**: Found cd 1 on diningtable 1, picked it up and moved it to sidetable 1.
   - **Key Insight**: CD objects are commonly found on dining tables and can be directly moved to side tables.
   - **Efficiency Note**: Direct approach was efficient with no unnecessary detours - went straight to object location, picked it up, and delivered to destination.
+- **Episode: Put two creditcard in diningtable (Efficient)** (Success, Score: 1.00, Steps: 14)
+  - **Strategy**: Found creditcard 1 on dresser 1 and creditcard 2 on armchair 1, then moved both to diningtable 1.
+  - **Key Insight**: Direct approach works well when object locations are known.
+  - **Efficiency Note**: No unnecessary detours - systematic but focused movement between object locations and destination.
 
 ## Stats
 success_rate: 100
-uses: 2
-- Success Rate: 100% (2/2 episodes)
-- Average Steps: 15
+uses: 3
+- Success Rate: 100% (3/3 episodes)
+- Average Steps: 14.7
 - Common Target Objects: Creditcards, books, CDs
 - Common Destinations: Diningtable, countertop, sidetable
