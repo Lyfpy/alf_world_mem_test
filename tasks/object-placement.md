@@ -15,10 +15,12 @@ Use this node for tasks that involve moving objects from one location to another
 ## Knowledge
 - Object placement tasks require finding target objects and moving them to specified locations
 - Objects are often found on furniture surfaces (dresser, armchair, countertop)
-- Common target locations include diningtable, countertop, sidetable
+- Common target locations include diningtable, countertop, sidetable, toilet
 - Creditcards are small objects that can be easily moved between surfaces
 - CDs are commonly found on dining tables
 - Side tables are valid destinations for CD placement
+- Spraybottles are bathroom items commonly found on countertops
+- Toilets are valid destinations for object placement tasks
 
 ## SOP
 1. Go to the target object's location
@@ -54,11 +56,15 @@ Use this node for tasks that involve moving objects from one location to another
   - **Strategy**: Went to diningtable 1, found cd 1 among other items (alarmclock 2, cellphone 2, creditcard 2, keychain 3, keychain 2, pencil 3), picked it up, went to sidetable 1, and moved it there.
   - **Key Insight**: Dining tables often contain multiple objects requiring identification; CDs are consistently found on dining tables and can be efficiently moved to side tables.
   - **Efficiency Note**: Optimal execution with exactly 4 steps - the standard efficient pattern for this task type.
+- **Episode: Put some spraybottle on toilet** (Success, Score: 1.00, Steps: 4)
+  - **Strategy**: Found spraybottle 1 on countertop 1 (along with candle 2), picked it up, went to toilet 1, and moved it there.
+  - **Key Insight**: Spraybottles are bathroom items commonly found on countertops; toilets are valid destinations for object placement.
+  - **Efficiency Note**: Very efficient 4-step execution - direct approach from countertop to toilet.
 
 ## Stats
 success_rate: 100
-uses: 6
-- Success Rate: 100% (6/6 episodes)
-- Average Steps: 10.67
-- Common Target Objects: Creditcards, books, CDs
-- Common Destinations: Diningtable, countertop, sidetable
+uses: 7
+- Success Rate: 100% (7/7 episodes)
+- Average Steps: 9.71
+- Common Target Objects: Creditcards, books, CDs, spraybottles
+- Common Destinations: Diningtable, countertop, sidetable, toilet
