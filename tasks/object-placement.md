@@ -17,6 +17,8 @@ Use this node for tasks that involve moving objects from one location to another
 - Objects are often found on furniture surfaces (dresser, armchair, countertop)
 - Common target locations include diningtable, countertop, sidetable
 - Creditcards are small objects that can be easily moved between surfaces
+- CDs are commonly found on dining tables
+- Side tables are valid destinations for CD placement
 
 ## SOP
 1. Go to the target object's location
@@ -32,11 +34,15 @@ Use this node for tasks that involve moving objects from one location to another
   - **Strategy**: Found creditcard 1 on dresser 1, creditcard 2 already on armchair 1. Moved both to diningtable 1.
   - **Key Insight**: Objects may be distributed across multiple furniture pieces. Systematic search of all surfaces is required.
   - **Efficiency Note**: Initial detours to empty drawers/countertop were unnecessary but harmless.
+- **Episode: Put some cd on sidetable** (Success, Score: 1.00, Steps: 5)
+  - **Strategy**: Found cd 1 on diningtable 1, picked it up and moved it to sidetable 1.
+  - **Key Insight**: CD objects are commonly found on dining tables and can be directly moved to side tables.
+  - **Efficiency Note**: Direct approach was efficient with no unnecessary detours - went straight to object location, picked it up, and delivered to destination.
 
 ## Stats
 success_rate: 100
-uses: 1
-- Success Rate: 100% (1/1 episodes)
-- Average Steps: 25
+uses: 2
+- Success Rate: 100% (2/2 episodes)
+- Average Steps: 15
 - Common Target Objects: Creditcards, books, CDs
 - Common Destinations: Diningtable, countertop, sidetable
