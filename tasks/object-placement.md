@@ -50,11 +50,15 @@ Use this node for tasks that involve moving objects from one location to another
   - **Strategy**: Found creditcard 1 on dresser 1 and creditcard 2 on armchair 1, then moved both to diningtable 1.
   - **Key Insight**: Objects can be distributed across different furniture pieces - systematic search of dressers and armchairs is effective.
   - **Efficiency Note**: Most efficient execution yet - direct focused movements between object locations and destination with minimal detours.
+- **Episode: Put some cd on sidetable** (Success, Score: 1.00, Steps: 4)
+  - **Strategy**: Went to diningtable 1, found cd 1 among other items (alarmclock 2, cellphone 2, creditcard 2, keychain 3, keychain 2, pencil 3), picked it up, went to sidetable 1, and moved it there.
+  - **Key Insight**: Dining tables often contain multiple objects requiring identification; CDs are consistently found on dining tables and can be efficiently moved to side tables.
+  - **Efficiency Note**: Optimal execution with exactly 4 steps - the standard efficient pattern for this task type.
 
 ## Stats
 success_rate: 100
-uses: 5
-- Success Rate: 100% (5/5 episodes)
-- Average Steps: 12.0
+uses: 6
+- Success Rate: 100% (6/6 episodes)
+- Average Steps: 10.67
 - Common Target Objects: Creditcards, books, CDs
 - Common Destinations: Diningtable, countertop, sidetable
