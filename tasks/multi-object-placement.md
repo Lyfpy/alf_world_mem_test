@@ -29,6 +29,16 @@ Multi-object tasks benefit from staging areas when objects are in different loca
 **Key insight**: Trial-and-error discovery led to optimal staging approach  
 **Outcome**: Success achieved through persisted staging strategy  
 
+**Task**: find two creditcard and put them in shelf  
+**Objects**: creditcard 3 on desk 1, creditcard 4 on desk 1  
+**Target**: shelf 1  
+**Strategy used**: Direct sequential collection from single source location (desk1)  
+**Navigation pattern**: Initial detour to bed1, then optimized direct desk1 → shelf1 route  
+**Total steps**: 16  
+**Key insight**: When all objects are at same location, staging is unnecessary - direct sequential placement is optimal  
+**Outcome**: Success with efficient back-and-forth between desk and shelf  
+
 ## Stats
-success_rate: 0
-uses: 0
+success_rate: 1.00
+uses: 2
+avg_steps: 21.5
