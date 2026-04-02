@@ -29,6 +29,15 @@ Single-object placement follows a straightforward fetch-and-place pattern: inven
 **Key insight**: Straightforward single-object transfer requires minimal complexity  
 **Outcome**: Success achieved with basic fetch-and-place pattern  
 
+**Task**: Put some spraybottle on toilet  
+**Objects**: spraybottle 2 in cabinet 2 (discovered after checking cabinet 1 first)  
+**Target**: toilet 1  
+**Strategy used**: Direct fetch-and-place with source discovery  
+**Navigation pattern**: inventory → cabinet 1 → cabinet 2 (source) → toilet 1 (target)  
+**Total steps**: 7  
+**Key insight**: Multi-location source discovery is sometimes needed to locate the required object  
+**Outcome**: Success achieved with direct fetch-and-place pattern after source discovery  
+
 ## Stats
 success_rate: 1
-uses: 1
+uses: 2
