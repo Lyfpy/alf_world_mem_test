@@ -7,10 +7,10 @@ created_at: 2026-04-03
 ---
 
 ## When to Use
-for tasks that involve heating food items (bread, cups, mugs, or similar items) using microwave before placing them at a destination
+for tasks that involve heating items (food items like bread, cups, mugs, or non-food items like plates) using microwave before placing them at a destination
 
 ## Knowledge
-microwave is primary heating appliance, food items (bread, cups, mugs) found on countertops and cabinets, need to open microwave before heating, heated items can be placed at various destinations
+microwave is primary heating appliance, items (food items like bread, cups, mugs, and non-food items like plates) found on countertops and cabinets, need to open microwave before heating, heated items can be placed at various destinations
 
 ## SOP
 1) Find target food item, 2) Take food item, 3) Go to microwave, 4) Open microwave, 5) Heat food item with microwave, 6) Go to destination, 7) Place heated food item
@@ -130,6 +130,74 @@ Step 7: examine cabinet 1
 Step 8: move cup 1 to cabinet 1
   -> You move the cup 1 to the cabinet 1.
 
+put a hot plate in cabinet (success, 33 steps)
+Step 1: go to countertop 1
+  -> You arrive at countertop 1. On the countertop 1, you see a butterknife 1, a knife 1, a lettuce 1, a mug 1, a papertowelroll 1, and a saltshaker 1.
+Step 2: go to countertop 2
+  -> You arrive at countertop 2. On the countertop 2, you see a apple 3, a bread 2, a bread 1, a egg 1, a houseplant 1, a mug 3, a spoon 2, and a vase 2.
+Step 3: go to countertop 3
+  -> You arrive at countertop 3. On the countertop 3, you see a book 1, a butterknife 2, a creditcard 2, a egg 2, a kettle 1, a knife 3, a knife 2, a lettuce 2, a pan 2, a spatula 3, a spatula 1, a tomato 3, a tomato 1, and a vase 3.
+Step 4: go to shelf 1
+  -> You arrive at shelf 1. On the shelf 1, you see a soapbottle 2.
+Step 5: go to shelf 2
+  -> You arrive at shelf 2. On the shelf 2, you see a bowl 2, a bowl 1, a creditcard 1, and a soapbottle 1.
+Step 6: go to shelf 3
+  -> You arrive at shelf 3. On the shelf 3, you see a statue 1.
+Step 7: go to drawer 1
+  -> You arrive at drawer 1. The drawer 1 is closed.
+Step 8: open drawer 1
+  -> You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+Step 9: go to drawer 2
+  -> You arrive at drawer 2. The drawer 2 is closed.
+Step 10: open drawer 2
+  -> You open the drawer 2. The drawer 2 is open. In it, you see nothing.
+Step 11: go to drawer 3
+  -> You arrive at drawer 3. The drawer 3 is closed.
+Step 12: open drawer 3
+  -> You open the drawer 3. The drawer 3 is open. In it, you see nothing.
+Step 13: go to drawer 4
+  -> You arrive at drawer 4. The drawer 4 is closed.
+Step 14: open drawer 4
+  -> You open the drawer 4. The drawer 4 is open. In it, you see a dishsponge 1.
+Step 15: close drawer 4
+  -> You close the drawer 4.
+Step 16: open drawer 5
+  -> You open the drawer 5. The drawer 5 is open. In it, you see a fork 1.
+Step 17: go to drawer 6
+  -> You arrive at drawer 6. The drawer 6 is closed.
+Step 18: open drawer 6
+  -> You open the drawer 6. The drawer 6 is open. In it, you see nothing.
+Step 19: go to drawer 7
+  -> You arrive at drawer 7. The drawer 7 is closed.
+Step 20: open drawer 7
+  -> You open the drawer 7. The drawer 7 is open. In it, you see a dishsponge 2.
+Step 21: go to drawer 8
+  -> You arrive at drawer 8. On the drawer 8, you see nothing.
+Step 22: go to drawer 9
+  -> You arrive at drawer 9. The drawer 9 is closed.
+Step 23: open drawer 9
+  -> You open the drawer 9. The drawer 9 is open. In it, you see nothing.
+Step 24: go to cabinet 1
+  -> You arrive at cabinet 1. The cabinet 1 is closed.
+Step 25: open cabinet 1
+  -> You open the cabinet 1. The cabinet 1 is open. In it, you see nothing.
+Step 26: go to cabinet 2
+  -> You arrive at cabinet 2. The cabinet 2 is closed.
+Step 27: open cabinet 2
+  -> You open the cabinet 2. The cabinet 2 is open. In it, you see a plate 1.
+Step 28: take plate 1 from cabinet 2
+  -> You pick up the plate 1 from the cabinet 2.
+Step 29: go to microwave 1
+  -> You arrive at microwave 1. The microwave 1 is closed.
+Step 30: open microwave 1
+  -> You open the microwave 1. The microwave 1 is open. In it, you see nothing.
+Step 31: heat plate 1 with microwave 1
+  -> You heat the plate 1 using the microwave 1.
+Step 32: go to cabinet 1
+  -> You arrive at cabinet 1. The cabinet 1 is open. In it, you see nothing.
+Step 33: move plate 1 to cabinet 1
+  -> You move the plate 1 to the cabinet 1.
+
 ## Stats
 success_rate: 1.0
-uses: 4
+uses: 5
