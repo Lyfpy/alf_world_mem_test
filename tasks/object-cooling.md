@@ -39,6 +39,12 @@ Use this memory when tasked with cooling objects (food items or containers) usin
 - Actions: go to countertop 1 → go to countertop 2 → take bowl 1 from countertop 2 → go to fridge 1 → cool bowl 1 with fridge 1 → go to countertop 1 → move bowl 1 to countertop 1
 - Details: Found bowl on countertop 2, cooled it in fridge 1, placed on countertop 1
 
+**Case 3: Bowl cooling and microwave placement**
+- Task: Bowl cooling and microwave placement
+- Result: Success
+- Actions: go to countertop 1 → go to countertop 2 → go to diningtable 1 → go to cabinet 1 → open cabinet 1 → go to cabinet 2 → open cabinet 2 → go to cabinet 3 → open cabinet 3 → take bowl 1 from cabinet 3 → go to fridge 1 → cool bowl 1 with fridge 1 → go to microwave 1 → open microwave 1 → move bowl 1 to microwave 1
+- Details: Found bowl 1 in cabinet 3 after checking multiple storage locations, cooled it in fridge 1, placed the cooled bowl in microwave 1
+
 ## Stats
-success_rate: 0
-uses: 0
+success_rate: 1.0
+uses: 4
