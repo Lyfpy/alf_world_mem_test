@@ -79,6 +79,35 @@ This memory should be retrieved for tasks that involve picking up two identical 
   - Step 19: go to cabinet 1 → Returned to destination
   - Step 20: move spraybottle 2 to cabinet 1 → Placed second object, task completed
 
+**Case: Two cellphones to sidetable**
+- Task: "put two cellphone in sidetable"
+- Result: Success
+- Trajectory:
+  - Step 1: go to desk 1 → You arrive at desk 1. On the desk 1, you see a alarmclock 1, a book 3, a box 1, a keychain 1, a laptop 1, a pen 3, and a pen 1.
+  - Step 2: go to shelf 1 → You arrive at shelf 1. On the shelf 1, you see a pen 2.
+  - Step 3: go to cabinet 1 → You arrive at cabinet 1. The cabinet 1 is closed.
+  - Step 4: open cabinet 1 → You open the cabinet 1. The cabinet 1 is open. In it, you see nothing.
+  - Step 5: close cabinet 1 → You close the cabinet 1.
+  - Step 6: open cabinet 2 → You open the cabinet 2. The cabinet 2 is open. In it, you see nothing.
+  - Step 7: go to cabinet 3 → You arrive at cabinet 3. The cabinet 3 is closed.
+  - Step 8: open cabinet 3 → You open the cabinet 3. The cabinet 3 is open. In it, you see nothing.
+  - Step 9: go to cabinet 4 → You arrive at cabinet 4. The cabinet 4 is closed.
+  - Step 10: open cabinet 4 → You open the cabinet 4. The cabinet 4 is open. In it, you see nothing.
+  - Step 11: go to drawer 1 → You arrive at drawer 1. The drawer 1 is closed.
+  - Step 12: open drawer 1 → You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+  - Step 13: go to drawer 2 → You arrive at drawer 2. The drawer 2 is closed.
+  - Step 14: open drawer 2 → You open the drawer 2. The drawer 2 is open. In it, you see a creditcard 1.
+  - Step 15: go to garbagecan 1 → You arrive at garbagecan 1. On the garbagecan 1, you see a pencil 2.
+  - Step 16: examine garbagecan 1 → On the garbagecan 1, you see a pencil 2.
+  - Step 17: go to bed 1 → You arrive at bed 1. On the bed 1, you see a book 2, a book 1, a cellphone 2, a cellphone 1, a pillow 3, a pillow 2, and a pillow 1.
+  - Step 18: take cellphone 1 from bed 1 → You pick up the cellphone 1 from the bed 1.
+  - Step 19: go to sidetable 1 → You arrive at sidetable 1. On the sidetable 1, you see a cd 1, and a pencil 1.
+  - Step 20: move cellphone 1 to sidetable 1 → You move the cellphone 1 to the sidetable 1.
+  - Step 21: go to bed 1 → You arrive at bed 1. On the bed 1, you see a book 2, a book 1, a cellphone 2, a pillow 3, a pillow 2, and a pillow 1.
+  - Step 22: take cellphone 2 from bed 1 → You pick up the cellphone 2 from the bed 1.
+  - Step 23: go to sidetable 1 → You arrive at sidetable 1. On the sidetable 1, you see a cd 1, a cellphone 1, and a pencil 1.
+  - Step 24: move cellphone 2 to sidetable 1 → You move the cellphone 2 to the sidetable 1.
+
 ## Stats
-success_rate: 0
-uses: 2
+success_rate: 1.0
+uses: 3
