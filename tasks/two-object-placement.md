@@ -98,6 +98,49 @@ This memory should be retrieved for tasks that involve picking up two identical 
   - Step 13: go to drawer 2 → You arrive at drawer 2. The drawer 2 is closed.
   - Step 14: open drawer 2 → You open the drawer 2. The drawer 2 is open. In it, you see a creditcard 1.
   - Step 15: go to garbagecan 1 → You arrive at garbagecan 1. On the garbagecan 1, you see a pencil 2.
+
+**Case: Two winebottles to cabinet**
+- Task: "find two winebottle and put them in cabinet"
+- Result: Success (9 steps)
+- Trajectory:
+  - Step 1: go to countertop 1 → You arrive at countertop 1. On the countertop 1, you see a bread 1, a cup 1, a egg 2, a fork 1, a houseplant 1, a kettle 1, a knife 2, a knife 1, a lettuce 3, a lettuce 2, a lettuce 1, a mug 3, a papertowelroll 1, a peppershaker 1, a plate 3, a plate 2, a pot 1, a saltshaker 1, a spatula 1, a spoon 2, a winebottle 3, a winebottle 2, and a winebottle 1.
+  - Step 2: take winebottle 1 from countertop 1 → You pick up the winebottle 1 from the countertop 1.
+  - Step 3: go to cabinet 1 → You arrive at cabinet 1. The cabinet 1 is closed.
+  - Step 4: open cabinet 1 → You open the cabinet 1. The cabinet 1 is open. In it, you see a dishsponge 1, a plate 1, and a soapbottle 1.
+  - Step 5: move winebottle 1 to cabinet 1 → You move the winebottle 1 to the cabinet 1.
+  - Step 6: go to countertop 1 → You arrive at countertop 1. On the countertop 1, you see a bread 1, a cup 1, a egg 2, a fork 1, a houseplant 1, a kettle 1, a knife 2, a knife 1, a lettuce 3, a lettuce 2, a lettuce 1, a mug 3, a papertowelroll 1, a peppershaker 1, a plate 3, a plate 2, a pot 1, a saltshaker 1, a spatula 1, a spoon 2, a winebottle 3, and a winebottle 2.
+  - Step 7: take winebottle 2 from countertop 1 → You pick up the winebottle 2 from the countertop 1.
+  - Step 8: go to cabinet 1 → You arrive at cabinet 1. The cabinet 1 is open. In it, you see a dishsponge 1, a plate 1, a soapbottle 1, and a winebottle 1.
+  - Step 9: move winebottle 2 to cabinet 1 → You move the winebottle 2 to the cabinet 1.
+
+**Case: Two tissueboxes to coffeetable**
+- Task: "put two tissuebox in coffeetable"
+- Result: Success (24 steps)
+- Trajectory:
+  - Step 1: go to coffeetable 1 → You arrive at coffeetable 1. On the coffeetable 1, you see a creditcard 1, a keychain 1, and a statue 1.
+  - Step 2: go to diningtable 1 → You arrive at diningtable 1. On the diningtable 1, you see a remotecontrol 1.
+  - Step 3: examine diningtable 1 → On the diningtable 1, you see a remotecontrol 1.
+  - Step 4: examine diningtable 2 → On the diningtable 2, you see nothing.
+  - Step 5: go to sidetable 1 → You arrive at sidetable 1. On the sidetable 1, you see a houseplant 1, and a tissuebox 2.
+  - Step 6: take tissuebox 2 from sidetable 1 → You pick up the tissuebox 2 from the sidetable 1.
+  - Step 7: go to coffeetable 1 → You arrive at coffeetable 1. On the coffeetable 1, you see a creditcard 1, a keychain 1, and a statue 1.
+  - Step 8: move tissuebox 2 to coffeetable 1 → You move the tissuebox 2 to the coffeetable 1.
+  - Step 9: go to drawer 1 → You arrive at drawer 1. The drawer 1 is closed.
+  - Step 10: open drawer 1 → You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+  - Step 11: go to drawer 2 → You arrive at drawer 2. The drawer 2 is closed.
+  - Step 12: open drawer 2 → You open the drawer 2. The drawer 2 is open. In it, you see nothing.
+  - Step 13: go to drawer 3 → You arrive at drawer 3. The drawer 3 is closed.
+  - Step 14: open drawer 3 → You open the drawer 3. The drawer 3 is open. In it, you see nothing.
+  - Step 15: go to drawer 4 → You arrive at drawer 4. The drawer 4 is closed.
+  - Step 16: open drawer 4 → You open the drawer 4. The drawer 4 is open. In it, you see nothing.
+  - Step 17: go to drawer 5 → You arrive at drawer 5. The drawer 5 is closed.
+  - Step 18: open drawer 5 → You open the drawer 5. The drawer 5 is open. In it, you see nothing.
+  - Step 19: go to drawer 6 → You arrive at drawer 6. The drawer 6 is closed.
+  - Step 20: open drawer 6 → You open the drawer 6. The drawer 6 is open. In it, you see nothing.
+  - Step 21: go to dresser 1 → You arrive at dresser 1. On the dresser 1, you see a box 1, a candle 1, a creditcard 2, a remotecontrol 2, and a tissuebox 1.
+  - Step 22: take tissuebox 1 from dresser 1 → You pick up the tissuebox 1 from the dresser 1.
+  - Step 23: go to coffeetable 1 → You arrive at coffeetable 1. On the coffeetable 1, you see a creditcard 1, a keychain 1, a statue 1, and a tissuebox 2.
+  - Step 24: move tissuebox 1 to coffeetable 1 → You move the tissuebox 1 to the coffeetable 1.
   - Step 16: examine garbagecan 1 → On the garbagecan 1, you see a pencil 2.
   - Step 17: go to bed 1 → You arrive at bed 1. On the bed 1, you see a book 2, a book 1, a cellphone 2, a cellphone 1, a pillow 3, a pillow 2, and a pillow 1.
   - Step 18: take cellphone 1 from bed 1 → You pick up the cellphone 1 from the bed 1.
