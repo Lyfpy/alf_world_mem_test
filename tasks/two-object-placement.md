@@ -32,6 +32,38 @@ This memory should be retrieved for tasks that involve picking up two identical 
 9. Place the second object in the destination
 
 ## Cases
+**Case: Two lettuce to fridge**
+- Task: "put two lettuce in fridge"
+- Result: Success
+- Trajectory:
+  - Step 1: go to countertop 1 → You arrive at countertop 1. On the countertop 1, you see a apple 1, a papertowelroll 1, a tomato 2, and a tomato 1.
+  - Step 2: go to countertop 2 → You arrive at countertop 2. On the countertop 2, you see a dishsponge 2, a houseplant 1, a lettuce 1, a mug 1, a plate 1, and a winebottle 3.
+  - Step 3: take lettuce 1 from countertop 2 → You pick up the lettuce 1 from the countertop 2.
+  - Step 4: go to fridge 1 → You arrive at fridge 1. The fridge 1 is closed.
+  - Step 5: open fridge 1 → You open the fridge 1. The fridge 1 is open. In it, you see a bowl 1, a egg 1, a pot 1, a potato 2, and a potato 1.
+  - Step 6: move lettuce 1 to fridge 1 → You move the lettuce 1 to the fridge 1.
+  - Step 7: go to countertop 3 → You arrive at countertop 3. On the countertop 3, you see a apple 2, a book 1, a bread 1, a butterknife 3, a butterknife 2, a fork 1, a knife 1, a lettuce 2, a pan 1, a peppershaker 3, a plate 2, a statue 1, and a tomato 3.
+  - Step 8: take lettuce 2 from countertop 3 → You pick up the lettuce 2 from the countertop 3.
+  - Step 9: go to fridge 1 → You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 1, a egg 1, a lettuce 1, a pot 1, a potato 2, and a potato 1.
+  - Step 10: move lettuce 2 to fridge 1 → You move the lettuce 2 to the fridge 1.
+
+**Case: Two toiletpaper to toilet**
+- Task: "find two toiletpaper and put them in toilet"
+- Result: Success
+- Trajectory:
+  - Step 1: go to toiletpaperhanger 1 → You arrive at toiletpaperhanger 1. On the toiletpaperhanger 1, you see nothing.
+  - Step 2: go to countertop 1 → You arrive at countertop 1. On the countertop 1, you see a candle 1, and a spraybottle 1.
+  - Step 3: go to cabinet 1 → You arrive at cabinet 1. The cabinet 1 is closed.
+  - Step 4: open cabinet 1 → You open the cabinet 1. The cabinet 1 is open. In it, you see nothing.
+  - Step 5: go to cabinet 2 → You arrive at cabinet 2. The cabinet 2 is closed.
+  - Step 6: take toiletpaper 2 from garbagecan 1 → You pick up the toiletpaper 2 from the garbagecan 1.
+  - Step 7: go to toilet 1 → You arrive at toilet 1. On the toilet 1, you see a soapbar 1, and a soapbottle 1.
+  - Step 8: move toiletpaper 2 to toilet 1 → You move the toiletpaper 2 to the toilet 1.
+  - Step 9: go to garbagecan 1 → You arrive at garbagecan 1. On the garbagecan 1, you see a toiletpaper 3.
+  - Step 10: take toiletpaper 3 from garbagecan 1 → You pick up the toiletpaper 3 from the garbagecan 1.
+  - Step 11: go to toilet 1 → You arrive at toilet 1. On the toilet 1, you see a soapbar 1, a soapbottle 1, and a toiletpaper 2.
+  - Step 12: move toiletpaper 3 to toilet 1 → You move the toiletpaper 3 to the toilet 1.
+
 **Case: Two spraybottles to cabinet**
 - Task: "put two spraybottle in cabinet"
 - Result: Success
@@ -49,4 +81,4 @@ This memory should be retrieved for tasks that involve picking up two identical 
 
 ## Stats
 success_rate: 0
-uses: 0
+uses: 2
